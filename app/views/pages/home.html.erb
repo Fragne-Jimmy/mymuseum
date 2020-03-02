@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <%= stylesheet_link_tag "mymuseum" %>
+  </head>
+	<body>
+
+		<nav>
+    	<a href="<%=pages_home_path%>"><h1>My Museum</h1></a>
+
+			<!--<div class="frames">
+			  <img src="https://img.icons8.com/ios-filled/50/000000/frame.png">
+				<img src="https://img.icons8.com/ios/50/000000/frame.png">
+				<img src="https://img.icons8.com/doodle/48/000000/hanging-frame.png">
+				<img src="https://img.icons8.com/ios/50/000000/frame.png">
+				<img src="https://img.icons8.com/ios-filled/50/000000/frame.png">
+			</div>-->
+
+			<div class="navright">
+			  <a href="login.html" class="btnlogin">Log In / Sign Up</a>
+			</div>
+
+		</nav>
+
+		<div class="mainimg">
+			<div class="textmainimg">
+				<h2>Créer votre gallerie</h2>
+				<p>Enfin de vrais galleries pour vos oeuvres</p>
+			</div>
+		</div>
+
+
+		<div class="containersteps">
+		  <div class="at-section">
+		    <div class="at-section__title">Your masterpieces, our gallery</div>
+		  </div>
+		  <div class="at-grid" data-column="3">
+		    <div class="at-column">
+		      <div class="at-user">
+		        <div class="at-user__avatar"><i class="fa fa-user" style="color:#fbcdbe"></i></div>
+		        <div class="at-user__name">1. Votre profil</div>
+		        <div class="at-user__title">Enter your infos on your profil and let's get ready to rumble</div>
+		      </div>
+		    </div>
+		    <div class="at-column">
+		      <div class="at-user">
+		        <div class="at-user__avatar"><i class="fa fa-download" style="color:#cdbcb5"></i></div>
+		        <div class="at-user__name">2. Vos oeuvres</div>
+		        <div class="at-user__title">Download your artworks ( paintings, photos, videos, ... )</div>
+		      </div>
+		    </div>
+		    <div class="at-column">
+		      <div class="at-user">
+		        <div class="at-user__avatar"><i class="fa fa-font" style="color:#f0c3a3"></i></div>
+		        <div class="at-user__name">3. Description</div>
+		        <div class="at-user__title">Details each one of your artworks with a good description</div>
+		      </div>
+		    </div>
+		    <div class="at-column">
+		      <div class="at-user">
+		        <div class="at-user__avatar"><i class="fa fa-image" style="color:#80b7d5"></i></div>
+		        <div class="at-user__name">4. Votre gallerie</div>
+		        <div class="at-user__title">Try and choose one of our gallery, your artworks are already here waiting for you </div>
+		      </div>
+		    </div>
+		    <div class="at-column">
+		      <div class="at-user">
+		        <div class="at-user__avatar"><i class="fa fa-gear" style="color:#c9e4b4"></i></div>
+		        <div class="at-user__name">5. Personnaliser</div>
+		        <div class="at-user__title">Custom your gallerie as you wish. Congrats, it's your's now</div>
+		      </div>
+		    </div>
+		    <div class="at-column">
+		      <div class="at-user">
+		        <div class="at-user__avatar"><i class="fa fa-check-circle" style="color:#cfb4e4"></i></div>
+		        <div class="at-user__name">6. C'est prêt !</div>
+		        <div class="at-user__title">Créer votre site MyMuseum ou insérer la gallerie dans le votre </div>
+		      </div>
+		    </div>
+
+		    </div>
+
+				<div class="begin">
+				  <a href="profil.html" class="toprofil">Open your store</a>
+			  </div>
+
+		  </div>
+		</div>
+
+
+
+
+
+
+
+
+		<div class="container">
+			<h2 class="subtitle">Nos galleries</h2>
+			<article class="post wiggle-me">
+				<img width="660" height="478" src="http://www.sightunseen.com/content/uploads/2015/03/studio_1.jpg" class="post-image" alt="post-image">
+				<section class="post-content">
+					<time class="post-date">1400 - 1487</time>
+					<h1 class="post-title">Design</h1>
+					<p class="post-abstract">Un modèle pour les artistes de la nouvelle vague, la grande, la belle vague</p>
+					<div class="post-link-c">
+						<a href="gallery.html" class="post-link">Choose</a>
+					</div>
+				</section>
+
+			</article>
+			<article class="post wiggle-me">
+				<img width="660" height="523" src="http://www.sightunseen.com/content/uploads/2015/11/Brazil_Modern2.jpg" class="post-image" alt="">
+				<section class="post-content">
+					<time class="post-date">Friday 14 November, 13:00</time>
+					<h1 class="post-title">Classic</h1>
+					<p class="post-abstract">Une gallerie ma fois tout ce qu'il y a de plus classique mais toujours très efficace</p>
+					<div class="post-link-c">
+						<a href="classic.html" class="post-link">Choose</a>
+					</div>
+				</section>
+
+			</article>
+			<article class="post wiggle-me">
+				<img width="660" height="478" src="http://www.sightunseen.com/content/uploads/2015/03/studio_1.jpg" class="post-image" alt="">
+				<section class="post-content">
+					<time class="post-date">Saturday 45 November</time>
+					<h1 class="post-title">Street Art</h1>
+					<p class="post-abstract">Pour les plus Underground d'entre nous faite est cette gallerie - Yoda</p>
+					<div class="post-link-c">
+						<a href="streetart.html" class="post-link">Choose</a>
+					</div>
+				</section>
+
+			</article>
+			<article class="post wiggle-me">
+				<img width="660" height="478" src="http://www.sightunseen.com/content/uploads/2015/03/studio_1.jpg" class="post-image" alt="">
+				<section class="post-content">
+					<time class="post-date">Saturday 28 November, 14:00</time>
+					<h1 class="post-title">Coeval</h1>
+					<p class="post-abstract">Contemporain c'est pas tout ce qu'y s'passe à la campagne non ?</p>
+					<div class="post-link-c">
+						<a href="coeval.html" class="post-link">Choose</a>
+					</div>
+				</section>
+			</article>
+
+			<article class="post wiggle-me">
+				<img width="660" height="523" src="http://www.sightunseen.com/content/uploads/2015/11/Brazil_Modern2.jpg" class="post-image" alt="">
+				<section class="post-content">
+					<time class="post-date">Friday 14 November, 13:00</time>
+					<h1 class="post-title">Surrealist</h1>
+					<p class="post-abstract">ɿυɈυʇ ǝl ƨnɒb ɒįǝb Ɉnǝviv iυp ƨǝɈƨiɈɿɒ ƨǝl ɿυoꟼ</p>
+					<div class="post-link-c"><a href="surrealist.html" class="post-link">Choose</a></div>
+				</section>
+			</article>
+
+			<article class="post wiggle-me">
+				<img width="660" height="478" src="http://www.sightunseen.com/content/uploads/2015/03/studio_1.jpg" class="post-image" alt="">
+				<section class="post-content">
+					<time class="post-date">Saturday 45 November</time>
+					<h1 class="post-title">Polaroid</h1>
+					<p class="post-abstract">Une gallerie pour surfer sur le nouveau succès d'anciennes photos </p>
+					<div class="post-link-c"><a href="polaroid.html" class="post-link">Choose</a></div>
+				</section>
+			</article>
+
+		</div>
+
+		<div class="divgals"><a href="<%=pages_gals_path%>" class="moregal">See more</a></div>
+
+		<h2 class="subtitle">For artists, by artists</h2>
+		<p class="samplep">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		<div class="sample"></div>
+
+
+<footer>
+
+	<a href="mymuseum.html" class="block">@MyMuseum</a>
+	<br/>
+	<br/>
+
+	<div class="socials">
+
+		<a href=""><i class="fa fa-facebook"></i></a>
+		<a href=""><i class="fa fa-instagram"></i></a>
+		<a href=""><i class="fa fa-linkedin"></i></a>
+
+	</div>
+
+	<br/>
+
+	<div class="footlink">
+		<a href="">Help</a>
+		<a href="">Blog</a>
+		<a href="">Legal</a>
+	</div>
+
+</footer>
+
+<i class="fa fa-paint-brush return" onclick="goBack()"></i>
+
+
+
+
+
+
+
+
+</body>
+</html>

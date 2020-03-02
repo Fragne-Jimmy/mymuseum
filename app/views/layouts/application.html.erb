@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mymuseum</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag "application", params[:controller], :media => "all" %>
+    <%= javascript_include_tag "application", params[:controller] %>
+    <%= javascript_include_tag :defaults %>.
+
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
