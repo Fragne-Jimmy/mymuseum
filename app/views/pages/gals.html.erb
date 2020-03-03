@@ -9,7 +9,7 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <%= stylesheet_link_tag "gals" %>
-  
+
   </head>
   <body>
 
@@ -17,7 +17,7 @@
     	<a href="<%=pages_home_path%>"><h1>My Museum</h1></a>
 
       <div class="navright">
-			  <a href="login.html" class="btnlogin">Log In / Sign Up</a>
+			  <a href="<%=pages_login_path%>" class="btnlogin">Log In / Sign Up</a>
 			</div>
 
 		</nav>
@@ -27,188 +27,37 @@
 		</div>
 
 
-    <section>
-    <div class="hex_row_odd">
-      <div class="center">
-        <a href="gallery.html"><div class="hexagon">
-          <div class="hex1">
-            <div class="hex2" style="background: url('http://www.sub5zero.com/wp-content/uploads/2016/08/surfing-1050x525.jpg') center no-repeat">
-              <div class="desc">
-                <br/>
-                <h2>Design</h2>
-                <p>Details</p>
-              </div>
-            </div><!--/hex2-->
-          </div><!--/hex1-->
-        </div></a><!--/hexagon-->
-      </div><!--/center-->
-
-      <div class="center">
-          <a href="classic.html"><div class="hexagon">
-          <div class="hex1">
-            <div class="hex2" style="background: url('https://25.media.tumblr.com/tumblr_mb3lh6abw91rg4gq5o1_500.jpg') center no-repeat">
-              <div class="desc">
-                <br/>
-                <h2>Classic</h2>
-                <p>Details</p>
-              </div>
-            </div><!--/hex2-->
-          </div><!--/hex1-->
-        </div></a><!--/hexagon-->
-      </div><!--/center-->
-
-      <div class="center">
-          <a href="streetart.html"><div class="hexagon">
-          <div class="hex1">
-            <div class="hex2" style="background: url('https://25.media.tumblr.com/tumblr_mb3lh6abw91rg4gq5o1_500.jpg') center no-repeat">
-              <div class="desc">
-                <h2>Street Art</h2>
-                <p>Details</p>
-              </div>
-            </div><!--/hex2-->
-          </div><!--/hex1-->
-        </div></a><!--/hexagon-->
-      </div><!--/center-->
-    </div><!--/hex_row_even-->
-
-    <div class="hex_row_even">
-      <div class="center">
-          <a href="coeval.html"><div class="hexagon">
-          <div class="hex1">
-            <div class="hex2" style="background: url('https://static.tumblr.com/6pl87f7/eVqmduuh2/22948aee82dd11e18cf91231380fd29b_7.jpg') center no-repeat">
-              <div class="desc">
-                <br/>
-                <h2>Coeval</h2>
-                <p>Details</p>
-              </div>
-            </div><!--/hex2-->
-          </div><!--/hex1-->
-        </div></a><!--/hexagon-->
-      </div><!--/center-->
-
-      <div class="center">
-          <a href="surrealist.html"><div class="hexagon">
-          <div class="hex1">
-            <div class="hex2" style="background: url('https://25.media.tumblr.com/tumblr_mb3lh6abw91rg4gq5o1_500.jpg') center no-repeat">
-              <div class="desc">
-                <h2>Sur realist</h2>
-                <p>Details</p>
-              </div>
-            </div><!--/hex2-->
-          </div><!--/hex1-->
-        </div></a><!--/hexagon-->
-      </div><!--/center-->
-
-      <div class="center">
-          <a href="polaroid.html"><div class="hexagon">
-          <div class="hex1">
-            <div class="hex2" style="background: url('https://img.grouponcdn.com/deal/pZW1AwwkaLpzZ16v6Sv1/kM-2048x1229/v1/c700x420.jpg') center no-repeat">
-              <div class="desc">
-                <br/>
-                <h2>Photos</h2>
-                <p>Details</p>
-              </div>
-            </div><!--/hex2-->
-          </div><!--/hex1-->
-        </div></a><!--/hexagon-->
-      </div><!--/center-->
-
-    <div class="center">
-        <a href="frame.html"><div class="hexagon">
-          <div class="hex1">
-            <div class="hex2" style="background: url('http://www.destination360.com/europe/portugal/images/s/portugal-surf.jpg') center no-repeat">
-              <div class="desc">
-                <br/>
-                <h2>Frame</h2>
-                <p>Details</p>
-              </div>
-            </div><!--/hex2-->
-          </div><!--/hex1-->
-        </div></a><!--/hexagon-->
-      </div><!--/center-->
-
-    </div><!--/hex_row_even-->
-
-    <div class="hex_row_odd">
-      <div class="center">
-        <a href="combo.html"><div class="hexagon">
-          <div class="hex1">
-            <div class="hex2" style="background: url('http://cdn1.theinertia.com/wp-content/uploads/2012/07/11.jpg') center no-repeat">
-              <div class="desc">
-                <br/>
-                <h2>Combo</h2>
-                <p>Details</p>
-              </div>
-            </div><!--/hex2-->
-          </div><!--/hex1-->
-        </div></a><!--/hexagon-->
-      </div><!--/center-->
-
-      <div class="center">
-          <a href="video.html"><div class="hexagon">
-          <div class="hex1">
-            <div class="hex2" style="background: url('https://25.media.tumblr.com/tumblr_mb3lh6abw91rg4gq5o1_500.jpg') center no-repeat">
-              <div class="desc">
-                <br/>
-                <h2>Vidéos</h2>
-                <p>Details</p>
-              </div>
-            </div><!--/hex2-->
-          </div><!--/hex1-->
-        </div></a><!--/hexagon-->
-      </div><!--/center-->
-
-      <div class="center">
-        <div class="hexagon">
-          <div class="hex1">
-            <div class="hex2" style="background: url('https://upload.wikimedia.org/wikipedia/commons/c/c2/1999_-_Surf_%C3%A0_Waikiki_Beach_Honolulu_Hawa%C3%AF.jpg') center no-repeat">
-              <div class="desc">
-                <h2>Welcome this is an epic title</h2>
-                <p>Details</p>
-              </div>
-            </div><!--/hex2-->
-          </div><!--/hex1-->
-        </div><!--/hexagon-->
-      </div><!--/center-->
-    </div><!--/hex_row_even-->
-
-    <div class="hex_row_even">
-      <div class="center">
-        <div class="hexagon">
-          <div class="hex1">
-            <div class="hex2" style="background: url('https://static.tumblr.com/6pl87f7/eVqmduuh2/22948aee82dd11e18cf91231380fd29b_7.jpg') center no-repeat">
-              <div class="desc">
-                <h2>Welcome this is an epic title</h2>
-                <p>Details</p>
-              </div>
-            </div><!--/hex2-->
-          </div><!--/hex1-->
-        </div><!--/hexagon-->
-      </div><!--/center-->
-
-      <div class="hex_row_even">
-        <div class="center">
-          <div class="hexagon">
-            <div class="hex1">
-              <div class="hex2" style="background: url('https://static.tumblr.com/6pl87f7/eVqmduuh2/22948aee82dd11e18cf91231380fd29b_7.jpg') center no-repeat">
-                <div class="desc">
-                  <h2>Welcome this is an epic title</h2>
-                  <p>Details</p>
-                </div>
-              </div><!--/hex2-->
-            </div><!--/hex1-->
-          </div><!--/hexagon-->
-        </div><!--/center-->
-
-
-
-
-
-
-
-
-
-    </section>
+    <ul class="honeycomb" lang="es">
+  <li class="honeycomb-cell">
+    <img class="honeycomb-cell__image" src="https://source.unsplash.com/random/1">
+    <div class="honeycomb-cell__title"><a href="<%=pages_design_path%>">Design</a></div>
+  </li>
+  <li class="honeycomb-cell">
+    <img class="honeycomb-cell__image" src="https://source.unsplash.com/random/2">
+    <div class="honeycomb-cell__title">Classic</div>
+  </li>
+  <li class="honeycomb-cell">
+    <img class="honeycomb-cell__image" src="https://source.unsplash.com/random/3">
+    <div class="honeycomb-cell__title">Street Art</div>
+  </li>
+  <li class="honeycomb-cell">
+    <img class="honeycomb-cell__image" src="https://source.unsplash.com/random/4">
+    <div class="honeycomb-cell__title">Coeval</div>
+  </li>
+  <li class="honeycomb-cell">
+    <img class="honeycomb-cell__image" src="https://source.unsplash.com/random/5">
+    <div class="honeycomb-cell__title">Surrealist</div>
+  </li>
+  <li class="honeycomb-cell">
+    <img class="honeycomb-cell__image" src="https://source.unsplash.com/random/6">
+    <div class="honeycomb-cell__title">Polaroid</div>
+  </li>
+  <li class="honeycomb-cell">
+    <img class="honeycomb-cell__image" src="https://source.unsplash.com/random/7">
+    <div class="honeycomb-cell__title">Tablero magnético</div>
+  </li>
+  <li class="honeycomb-cell honeycomb__placeholder"></li>
+</ul>
 
 
     <i class="fa fa-paint-brush return" onclick="goBack()"></i>
