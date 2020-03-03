@@ -14,6 +14,8 @@ Rails.application.config.assets.precompile += %w( pages.css )
 Rails.application.config.assets.precompile += %w( pages.js )
 Rails.application.config.assets.precompile += %w( gals.css )
 Rails.application.config.assets.precompile += %w( gals.js )
+Rails.application.config.assets.precompile += %w( profil.scss )
+Rails.application.config.assets.precompile += %w( login.css )
 
 %w( clients_controller jobs_controller ).each do |controller|
   Rails.application.config.assets.precompile += ["#{controller}.js.coffee", "#{controller}.css"]
